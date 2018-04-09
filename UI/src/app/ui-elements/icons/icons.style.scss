@@ -1,0 +1,33 @@
+@import "../../scss/helpers";
+
+/***********************************/
+/**           ICON LIST           **/
+/***********************************/
+
+.icon-list{
+  margin-top: $spacer;
+}
+
+.icon-list-item{
+  height: 32px;
+  font-size: 14px;
+  line-height: 32px;
+  > a{
+    color: $text-color;
+    text-decoration: none;
+  }
+
+
+  .glyphicon,
+  .fa{
+    width: 32px;
+    margin-right: 10px;
+  }
+
+  &:hover{
+    .glyphicon,
+    .fa{
+      font-size: 28px;
+    }
+  }
+}

@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aggregates\SampleAggregate.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Entities\Common\AuditEntityKeyAttribute.cs" />
     <Compile Include="Entities\Common\ColumnAttribute.cs" />
@@ -56,8 +57,13 @@
     <Compile Include="Entities\Security\UserPermissionSetItem.cs" />
     <Compile Include="Entities\Security\UserPreference.cs" />
     <Compile Include="Entities\Security\UserPreferenceValue.cs" />
+    <Compile Include="Extensions\DateTimeExtensions.cs" />
+    <Compile Include="Extensions\IntervalsListExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Values\Interval.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Rules\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
